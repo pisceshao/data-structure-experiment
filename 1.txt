@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv='refresh' content='60'>
-	<title>竞赛&作业排名</title>
+	<title>ContestRanklist</title>
 	<link rel=stylesheet href='./template/bs/hoj.css' type='text/css'>
    <script type="text/javascript" src="include/jquery-latest.js"></script> 
 <script type="text/javascript" src="include/jquery.tablesorter.js"></script> 
@@ -50,16 +50,16 @@ $(document).ready(function()
 	<link rel=stylesheet href='./include/hoj.css' type='text/css'>
 </head>
 <table width=100% class=toprow><tr align=center>
-	<td width=15%><a class=hd href='./'>主页</a>
-	<td width=15%><a class=hd href='./bbs.php?cid=1122'>讨论版</a>
-	<td width=15%><a class=hd href='./contest.php?cid=1122'>问题</a>
-	<td width=15%><a class=hd href='./contestrank.php?cid=1122'>名次</a>
-	<td width=15%><a class=hd href='./status.php?cid=1122'>状态</a>
-	<td width=15%><a class=hd href='./conteststatistics.php?cid=1122'>统计</a>
+	<td width=15%><a class=hd href='./'>Home</a>
+	<td width=15%><a class=hd href='./bbs.php?cid=1122'>Web Board</a>
+	<td width=15%><a class=hd href='./contest.php?cid=1122'>ProblemSet</a>
+	<td width=15%><a class=hd href='./contestrank.php?cid=1122'>Standing</a>
+	<td width=15%><a class=hd href='./status.php?cid=1122'>Status</a>
+	<td width=15%><a class=hd href='./conteststatistics.php?cid=1122'>Statistics</a>
 </tr></table>
 <div id=broadcast>
 <marquee id=broadcast scrollamount=1 direction=up scrolldelay=250 onMouseOver='this.stop()' onMouseOut='this.start()';>
-  </marquee>
+  OJ问题论坛发帖http://t.cn/zjBp4jd FAQ http://t.cn/zjHKbmN Linux问题看http://t.cn/aWnP1n </marquee>
 </div><!--end broadcast-->
 <center><h3>Contest RankList -- 〖2013〗级c语言实验1输入输出专题(新手入门，高手勿进）</h3><a href="contestrank.xls.php?cid=1122" >Download</a></center>
   <table id=rank><thead><tr class=toprow align=center><td class="{sorter:'false'}" width=5%>Rank<th width=10%>User</th><th width=10%>Nick</th><th width=5%>Solved</th><th width=5%>Penalty</th>
